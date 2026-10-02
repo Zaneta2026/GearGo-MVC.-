@@ -1,0 +1,390 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="I8oWitbP-qB_oifkoFus">
+    <mxGraphModel dx="1595" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K9KZyh30V_A54KVgr_kW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Use Case Diagram" vertex="1">
+          <mxGeometry height="40" width="230" x="740" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-2" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="640" width="520" x="580" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-7" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="Browse Equipment" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-10" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="Manage Equipment Catalogue" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-9" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="View Equipment Details" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-8" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="Submit Rental Request" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-13" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="Manage Users" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-12" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="Manage Equipment" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-11" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="View Rental Request" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-15" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="Approve/Reject Rental Request" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-14" parent="K9KZyh30V_A54KVgr_kW-2" style="ellipse;whiteSpace=wrap;html=1;" value="View Rental Activity/Reports" vertex="1">
+          <mxGeometry height="70" width="140" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-21" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="K9KZyh30V_A54KVgr_kW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-22" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-23" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="K9KZyh30V_A54KVgr_kW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Customer" vertex="1">
+          <mxGeometry height="60" width="30" x="480" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-27" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-28" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="K9KZyh30V_A54KVgr_kW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-29" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="481" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-24" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-25" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-26" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Staff" vertex="1">
+          <mxGeometry height="60" width="30" x="1160" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="MVC Architecture Sketch" vertex="1">
+          <mxGeometry height="80" width="270" x="715" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="First ERD" vertex="1">
+          <mxGeometry height="60" width="260" x="715" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-37" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Browser&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Customer / Staff / Manager&lt;/div&gt;&lt;div&gt;User interface&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="270" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-38" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-49" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="K9KZyh30V_A54KVgr_kW-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Controller&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Handles requests&lt;/div&gt;&lt;div&gt;Sends responses&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="520" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-39" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-48" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="K9KZyh30V_A54KVgr_kW-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Service / Business Logic&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Business rules&lt;/div&gt;&lt;div&gt;Availability checks&lt;/div&gt;&lt;div&gt;Rental processing&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="770" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-40" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-47" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="K9KZyh30V_A54KVgr_kW-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Data Access&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Database operations&lt;/div&gt;&lt;div&gt;SQL queries&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="1020" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-46" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="K9KZyh30V_A54KVgr_kW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Database&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Equipment&lt;/div&gt;&lt;div&gt;Customer / User&lt;/div&gt;&lt;div&gt;Rental Request&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="1270" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP Request" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Request data" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Read/Write data" vertex="1">
+          <mxGeometry height="30" width="60" x="950" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SQL queries" vertex="1">
+          <mxGeometry height="30" width="60" x="1200" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data" vertex="1">
+          <mxGeometry height="30" width="60" x="1200" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data" vertex="1">
+          <mxGeometry height="30" width="60" x="950" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Result" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Response" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-56" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="Equipment" vertex="1">
+          <mxGeometry height="210" width="180" x="1020" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-57" parent="K9KZyh30V_A54KVgr_kW-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-58" parent="K9KZyh30V_A54KVgr_kW-57" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-59" parent="K9KZyh30V_A54KVgr_kW-57" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="EquipmentID" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-60" parent="K9KZyh30V_A54KVgr_kW-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-61" parent="K9KZyh30V_A54KVgr_kW-60" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-62" parent="K9KZyh30V_A54KVgr_kW-60" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="EquipmentName" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-63" parent="K9KZyh30V_A54KVgr_kW-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-64" parent="K9KZyh30V_A54KVgr_kW-63" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-65" parent="K9KZyh30V_A54KVgr_kW-63" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Description" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-66" parent="K9KZyh30V_A54KVgr_kW-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-67" parent="K9KZyh30V_A54KVgr_kW-66" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-68" parent="K9KZyh30V_A54KVgr_kW-66" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Category" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-107" parent="K9KZyh30V_A54KVgr_kW-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-108" parent="K9KZyh30V_A54KVgr_kW-107" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-109" parent="K9KZyh30V_A54KVgr_kW-107" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" value="AvailabilityStatus" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-104" parent="K9KZyh30V_A54KVgr_kW-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-105" parent="K9KZyh30V_A54KVgr_kW-104" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-106" parent="K9KZyh30V_A54KVgr_kW-104" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" value="RentalPrice" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-69" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="180" width="180" x="460" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-70" parent="K9KZyh30V_A54KVgr_kW-69" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-71" parent="K9KZyh30V_A54KVgr_kW-70" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-72" parent="K9KZyh30V_A54KVgr_kW-70" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="UserID" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-73" parent="K9KZyh30V_A54KVgr_kW-69" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-74" parent="K9KZyh30V_A54KVgr_kW-73" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-75" parent="K9KZyh30V_A54KVgr_kW-73" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Name" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-76" parent="K9KZyh30V_A54KVgr_kW-69" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-77" parent="K9KZyh30V_A54KVgr_kW-76" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-78" parent="K9KZyh30V_A54KVgr_kW-76" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Email" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-79" parent="K9KZyh30V_A54KVgr_kW-69" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-80" parent="K9KZyh30V_A54KVgr_kW-79" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-81" parent="K9KZyh30V_A54KVgr_kW-79" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Password&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-95" parent="K9KZyh30V_A54KVgr_kW-69" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-96" parent="K9KZyh30V_A54KVgr_kW-95" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-97" parent="K9KZyh30V_A54KVgr_kW-95" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" value="Role" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-82" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="RentalRequest" vertex="1">
+          <mxGeometry height="210" width="180" x="740" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-83" parent="K9KZyh30V_A54KVgr_kW-82" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-84" parent="K9KZyh30V_A54KVgr_kW-83" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-85" parent="K9KZyh30V_A54KVgr_kW-83" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="RentalRequestID" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-101" parent="K9KZyh30V_A54KVgr_kW-82" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-102" parent="K9KZyh30V_A54KVgr_kW-101" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="FK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-103" parent="K9KZyh30V_A54KVgr_kW-101" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="UserID" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-98" parent="K9KZyh30V_A54KVgr_kW-82" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-99" parent="K9KZyh30V_A54KVgr_kW-98" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="FK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-100" parent="K9KZyh30V_A54KVgr_kW-98" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="EquipmentID" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-86" parent="K9KZyh30V_A54KVgr_kW-82" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-87" parent="K9KZyh30V_A54KVgr_kW-86" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-88" parent="K9KZyh30V_A54KVgr_kW-86" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="RentalDate" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-89" parent="K9KZyh30V_A54KVgr_kW-82" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-90" parent="K9KZyh30V_A54KVgr_kW-89" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-91" parent="K9KZyh30V_A54KVgr_kW-89" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="ReturnDate" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-92" parent="K9KZyh30V_A54KVgr_kW-82" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-93" parent="K9KZyh30V_A54KVgr_kW-92" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-94" parent="K9KZyh30V_A54KVgr_kW-92" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Status" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-110" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-79" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="K9KZyh30V_A54KVgr_kW-83" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="640" y="1360" as="sourcePoint" />
+            <mxPoint x="740" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9KZyh30V_A54KVgr_kW-111" edge="1" parent="1" source="K9KZyh30V_A54KVgr_kW-66" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="K9KZyh30V_A54KVgr_kW-83" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="670" y="1450" as="sourcePoint" />
+            <mxPoint x="770" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
